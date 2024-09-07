@@ -1,1 +1,1 @@
-print('Hello from local repository')
+print('Hello from local repo')
