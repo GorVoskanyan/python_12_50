@@ -73,8 +73,6 @@
 # print(word)
 
 
-# words = ["anymore", "raven", "me", "communicate"]
-# min_len, max_len = len(min(words, key=len)), len(max(words, key=len))
-# print(min_len + max_len)
-
-
+words = ["anymore", "raven", "me", "communicate"]
+min_len, max_len = len(min(words, key=len)), len(max(words, key=len))
+print(min_len + max_len)
