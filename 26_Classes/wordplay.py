@@ -18,8 +18,14 @@ class WordPlay:
         return [w for w in self.words if set(w).issuperset(set(l))]
     
     def avoids(self, l: list) -> list:
-        return [w for w in self.words if not set(w).intersection(set(l))]
- 
+        # return [w for w in self.words if not set(w).intersection(set(l))]
+        result = []
+        l = set(l)
+        for word in self.words:
+            word_set = set(word)
+            if not word_set.intersection(l):
+                result.append(word)
+        return result
  
 # create instance of class    
 words = ['this', 'is', 'a',  'level', 'madam', 'test', 'of', 'class']
