@@ -1,0 +1,3 @@
+[__main__] - [test] - [2024-10-03 13:05:04.680452] - [division by zero]
+[__main__] - [test] - [2024-10-03 13:07:12.038012] - [unsupported operand type(s) for /: 'int' and 'str']
+[__main__] - [test] - [2024-10-03 13:18:26.997793] - [unsupported operand type(s) for +: 'int' and 'list']
